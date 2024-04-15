@@ -6,8 +6,10 @@
   "icon": "command-icon.png",
   "author": "OwledgeApp",
   "categories": [
+    "Applications",
     "Productivity"
   ],
+  "keywords": ["search", "owledge", "google drive", "notion", "figma", "github", "miro", "jira"],
   "license": "MIT",
   "commands": [
     {
@@ -15,6 +17,25 @@
       "title": "Owledge search",
       "description": "Access Notion, Figma, Github, Miro, Jira and way more in a single crazy fast search",
       "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "WORKSPACE_ID",
+      "type": "password",
+      "title": "Owledge Workspace ID",
+      "required": true,
+      "description": "Open your Owledge workspace settings and go to the API section to get your workspace id.",
+      "placeholder": "xxxxxxxxxxxxxxx",
+      "link": "https://search.owledge.app"
+    },
+    {
+      "name": "API_KEY",
+      "type": "password",
+      "title": "Owledge API key",
+      "required": true,
+      "description": "Open your workspace settings and go to the API section to create an API key at your name.",
+      "link": "https://search.owledge.app"
     }
   ],
   "dependencies": {
