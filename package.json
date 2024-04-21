@@ -7,7 +7,9 @@
   "author": "Romain",
   "categories": [
     "Applications",
-    "Productivity"
+    "Productivity",
+    "Media",
+    "Web"
   ],
   "keywords": ["search", "owledge", "google drive", "notion", "figma", "github", "miro", "jira"],
   "license": "MIT",
